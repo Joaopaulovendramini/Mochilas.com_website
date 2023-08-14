@@ -29,6 +29,11 @@
   justify-content: center;
 }
 
+.modoescuro-span{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vh;
+}
+
 .img {
   width: 180px;
   height: 220px;
@@ -79,6 +84,18 @@
   font-size: 16px;
 }
 
+.button-dark {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 14px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
 .containerlogo {
   display: flex;
   flex-direction: row;
@@ -115,6 +132,21 @@ height: 8vh;
   align-items: center;
 }
 
+.dark-mode {
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+.dark-mode .navbar {
+  background-color: #000000;
+  color: #ffffff;
+  
+}
+
+.dark-mode .footer {
+  background-color: #151a3c;
+  color: #ffffff;
+}
 
 @media screen and (max-width: 912px) {
   .container {
